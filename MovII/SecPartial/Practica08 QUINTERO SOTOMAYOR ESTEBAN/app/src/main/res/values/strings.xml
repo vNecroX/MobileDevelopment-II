@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SENSORES</string>
+    <!-- Opción Lista Sensores -->
+    <string name="lista">Lista de Sensores</string>
+    <!-- Opción Proximidad -->
+    <string name="proximidad">Sensor de Proximidad</string>
+    <!-- Opción Temperatura -->
+    <string name="ambiente">Sensores de Ambiente</string>
+    <string name="luz">Sensor de Luz</string>
+    <string name="temperatura">Sensor de Temperatura</string>
+    <!-- Opción Acelerometro -->
+    <string name="pasos">Acelerometro</string>
+    <string name="a">/</string>
+    <!-- Opción Giroscopio -->
+    <string name="gyro">Sensor de Giroscopio</string>
+    <string name="gyroX">X</string>
+    <string name="gyroY">Y</string>
+    <string name="gyroZ">Z</string>
+</resources>

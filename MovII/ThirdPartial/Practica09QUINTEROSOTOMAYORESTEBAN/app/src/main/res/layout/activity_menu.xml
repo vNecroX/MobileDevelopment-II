@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/btnActivityGestion"
+        android:layout_width="327dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="52dp"
+        android:onClick="gestionGuardaBosques"
+        android:text="@string/btnActivityGestion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnActivityListado"
+        android:layout_width="270dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:onClick="gestionBosques"
+        android:text="@string/btnActivityGestionParques"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActivityGestion" />
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="270dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="48dp"
+        android:onClick="cerrarSesion"
+        android:text="@string/btnCerrarSesion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActivityListado" />
+</androidx.constraintlayout.widget.ConstraintLayout>

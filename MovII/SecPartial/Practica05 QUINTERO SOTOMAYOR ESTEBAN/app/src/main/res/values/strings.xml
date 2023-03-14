@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string name="titulo">Gestión de cámara</string>
+    <string name="menu1">Lector Barras/QR</string>
+    <string name="menu2">Tomar foto</string>
+    <!-- Menu 1 -->
+    <string name="titulo1">Lector de Barra y QR</string>
+    <string name="escanear">Escanear</string>
+    <string name="res">Código leído</string>
+    <string name="descripcion">Captura descripción</string>
+    <!-- Menu 2 -->
+    <string name="titulo2">Tomar fotografía</string>
+    <string name="foto">Tomar fotografía</string>
+</resources>

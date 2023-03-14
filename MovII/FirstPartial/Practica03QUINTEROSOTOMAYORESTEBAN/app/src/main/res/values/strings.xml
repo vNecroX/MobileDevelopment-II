@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name"></string>
+
+    <!--TextViewGeneral!-->
+    <string name="title">Cita</string>
+
+    <!--MainActivity-->
+
+    <!--EditText!-->
+    <string name="userName">Usuario</string>
+    <string name="pssw">Contraseña</string>
+
+    <!--Button!-->
+    <string name="login">Ingresar</string>
+    <string name="exit">Salir</string>
+
+
+    <!--MainActivity2-->
+
+    <!--TextView!-->
+    <string name="blanck1"></string>
+    <string name="blanck2"></string>
+
+    <!--EditText!-->
+    <string name="name">Nombre</string>
+    <string name="secName">Apellido(s)</string>
+    <string name="data">Datos de cita</string>
+
+    <!--Button!-->
+    <string name="date">Establecer fecha</string>
+    <string name="time">Establecer horario</string>
+    <string name="reg">Registrar cita</string>
+</resources>

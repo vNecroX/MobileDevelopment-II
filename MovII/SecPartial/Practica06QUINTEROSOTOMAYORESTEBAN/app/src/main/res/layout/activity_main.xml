@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+    <Button
+        android:id="@+id/btnNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="normal"
+        android:text="Normal" />
+
+
+    <Button
+        android:id="@+id/btnSatelite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNormal"
+        android:onClick="satelite"
+        android:text="Satelite" />
+
+    <Button
+        android:id="@+id/btnHibrida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSatelite"
+        android:onClick="hibrido"
+        android:text="Hibrida" />
+
+    <Button
+        android:id="@+id/btnPolilinea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnHibrida"
+        android:onClick="polilinea"
+        android:text="Polilinea" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnPolilinea"
+        android:layout_marginTop="-192dp"
+        tools:context=".MainActivity" />
+
+</RelativeLayout>
+
+
+

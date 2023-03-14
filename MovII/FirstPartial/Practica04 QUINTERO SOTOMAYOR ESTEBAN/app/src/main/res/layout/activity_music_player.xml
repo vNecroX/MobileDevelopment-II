@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMusicPlayer">
+
+    <TextView
+        android:id="@+id/activity_music_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/activity_music_album"
+        android:layout_width="match_parent"
+        android:layout_height="456dp"
+        android:layout_below="@+id/activity_music_title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="3dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/error" />
+
+    <SeekBar
+        android:id="@+id/activity_music_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignStart="@+id/activity_music_title"
+        android:layout_marginStart="-3dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="19dp"
+        android:layout_toStartOf="@+id/activity_music_duration" />
+
+    <TextView
+        android:id="@+id/activity_music_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activity_music_seekBar"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/activity_music_title"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/activity_music_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/activity_music_song"
+        android:layout_marginStart="-16dp"
+        android:layout_marginBottom="-7dp"
+        android:layout_toEndOf="@+id/activity_music_title"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/activity_music_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/activity_music_time"
+        android:layout_alignBottom="@+id/activity_music_time"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/activity_music_pause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:contentDescription="@string/app_name"
+            android:src="@android:drawable/ic_media_pause" />
+
+        <ImageButton
+            android:id="@+id/activity_music_play"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:contentDescription="@string/app_name"
+            android:src="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/activity_music_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:contentDescription="@string/app_name"
+            android:src="@android:drawable/ic_media_rew" />
+
+        <ImageButton
+            android:id="@+id/activity_music_forward"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:contentDescription="@string/app_name"
+            android:src="@android:drawable/ic_media_ff" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Practica09</string>
+    <string name="titulo">Gestion de GuardaBosques</string>
+    <string name="numEmp">Escribe Número</string>
+    <string name="nombre">Escribe Nombre</string>
+    <string name="apellidos">Escribe Apellidos</string>
+    <string name="sueldo">Ingreso Sueldo</string>
+    <string name="agregar">Agregar</string>
+    <string name="buscar">Buscar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="lista">Lista</string>
+    <string name="detalle">Listado de Empleados</string>
+    <string name="regreso">Regresar</string>
+    <string name="inicio">Nombre de Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="btnIniciarSesion">Iniciar Sesión</string>
+    <string name="btnActivityGestion">Gestion de GuardaBosques</string>
+    <string name="btnActivityGestionParques">Gestion de Parques</string>
+    <string name="titulo2">Gestion de Bosques</string>
+    <string name="btnCerrarSesion">Cerrar Sesión</string>
+</resources>
